@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Handling header section */
+header {
+    width: 100%;
+    height: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: gray;
+    color: aqua;
+    position: relative;
+}
+header section{
+    width: 10%;
+    color: gray;
+    background-color: aqua;
+    position: absolute;
+    bottom: 0;
+}
+
+header section h1{
+   font-size: 50px;
+}
+
+header ul li{
+    list-style-type: none;
+    margin-right: 6%;
+    margin-top: 60px;
+    display: inline-block;
+    float: right;
+    font-size: 30px;
+    }
+    header ul li a,footer ul li a{
+        color: aqua;
+    }
+
+/* Defaulting values for body */
+body{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+/* Handling formatting for top image section */
+.topimage h2{
+    margin-top: 6%;
+}
+.topimage img{
+    height: 20%;
+    width: 100%;
+    position: absolute;
+}
+
+section h2{
+    position: absolute;
+    margin-left: 90%;   
+    font-size: 300%;
+    color: aqua;
+}
+
+/*Handling About section */
+
+.About{
+    height: 100%;
+    margin-top: 200px;
+    display: flex;
+    width: 100%;
+}
+.About div h1{
+    margin-left: 300px;
+    width: 150px;
+    font-size: 40px;
+    color: gray;
+    text-align: right;
+}
+
+.Aboutleft{
+    border-right: gray 5px solid;
+    padding-right: 5px;
+}
+.About div p{
+    margin-left: 50px;
+    text-align: left;
+    font-size: 20px;
+    color: gray;
+}
+/*Handling Work section */
+.Work{
+    height: 100%;
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+}
+.left h1{
+    margin-left: 300px;
+    width: 150px;
+    font-size: 40px;
+    color: gray;
+    text-align: right;
+}
+.left{
+    border-right: gray 5px solid;
+    padding-right: 5px;
+}
+
+.middle div{
+    height: 300px;
+    width: 5px;
+    background-color: gray;
+    margin-left: 10px;
+}
+/*Handling Image section in the middle */
+.imgsection{
+    width: 70%;
+    position: relative;
+}
+
+.imgsubsection {
+    display: flex;
+    margin-left: 50px;
+    width: 90%;
+    margin-bottom: 10px;
+   }
+
+   .imgsubsection img{
+    border: 0.4rem solid aqua;
+   }
+
+   .bottom-left {
+    position: absolute;
+    font-size: 30px;
+    background-color: aqua;
+    display: flex;
+    color: gray;
+  }
+    .bottom-left1 {
+        margin-top: 37%;
+        margin-left: 1%;
+    }
+    .bottom-left2 {
+        margin-top: 14%;
+        margin-left: 1%;
+    }
+    .bottom-left3 {
+        margin-top: 14%;   
+        margin-left: 46%;
+    }
+    .bottom-left4 {
+        margin-top: 14%;   
+        margin-left: .54%;
+    }
+    .bottom-left5 {
+        margin-top: 14%;   
+        margin-left: 46%;
+    }
+   .imgsubsection img {
+    height: auto;
+    width: 100%;
+   }
+
+.imgsubsection img.healthimg{
+    height: 250px;
+    width: 49.5%;
+}
+.two-col{
+    justify-content: space-between;
+}
+/* Handling Contact me section */
+
+.ContactMe{
+    height: 100%;
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+}
+.ContactMe div h1{
+    margin-left: 300px;
+    width: 150px;
+    font-size: 40px;
+    color: gray;
+    text-align: right;
+}
+
+.ContactMeLeft{
+    border-right: gray 5px solid;
+    padding-right: 5px;
+}
+
+footer ul li{
+float:right;
+justify-content: space-between;
+padding-right: 8%;
+display: inline-block;
+list-style-type: none;
+flex-grow: 1;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Handling footer section */
+
+footer{
+    width: 100%;
+    margin-top: 50px;
+}
+footer ul li a{
+    color: gray;
+    font-size: 25px;
+    bottom: 0;
+}
+
+footer nav h1 ul{
+    font-size: 50px;
+    margin-top: 200px;
+
+}
+
+
