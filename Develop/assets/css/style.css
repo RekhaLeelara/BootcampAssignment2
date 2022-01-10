@@ -125,6 +125,13 @@ section h2{
     margin-bottom: 10px;
    }
 
+   .imgsubsection img:hover{
+    transform: scale(1.5);
+    transform-origin: (50%, 50%);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+   }
+
    .imgsubsection img{
     border: 0.4rem solid aqua;
    }
