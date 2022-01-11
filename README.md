@@ -8,7 +8,7 @@ This application helps to describe the portfolio of Rekha Leelaraman so that the
 
 ## Application URL
 
-URL of the deployed application: https://rekhaleelara.github.io/BootcampAssignment2/
+URL of the deployed application: https://rekhaleelara.github.io/Portfolio_RekhaLeelaraman/
 
 ## Usage
 
